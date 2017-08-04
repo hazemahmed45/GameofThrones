@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hazem.gameofthrones.Features.Activity.HouseScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_region"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_coatofarms"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_words"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_title"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_seats"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_currentlord"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_heir"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_overlord"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_founded"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_founder"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_diedout"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_ancestral_weapons"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_cadet_branches"></include>
+        <include
+            layout="@layout/card_view"
+            android:id="@+id/housescreen_sworn_members"></include>
+    </LinearLayout>
+
+
+
+</ScrollView>
